@@ -6,22 +6,22 @@ An small app to quickly find local amenities, such as ATMs, toilets or Kebab sta
 
 ## Run it yourself
 
-This project requires [pnpm](https://pnpm.io/). Install it before proceeding with the steps below.
+This project requires [bun](https://bun.com/). Install it before proceeding with the steps below.
 
 ### Step 1: Installing dependencies
 
 ```sh
-pnpm install
+bun install
 ```
 
 ### Step 2: Build the project
 
 ```sh
-pnpm run build
+bun run build
 ```
 
 ### Step 3: Run it
 
 ```sh
-node build
+bun run preview
 ```
